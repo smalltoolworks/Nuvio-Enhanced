@@ -14,6 +14,14 @@
       "category": "entertainment",
       "versions": [
         {
+          "version": "0.4.21",
+          "date": "2026-09-16T01:25:22Z",
+          "localizedDescription": "- fix(home): match continue watching badge colors to tv @tapframe\r\n- perf(navigation): reduce root tab switch stalls @tapframe\r\n- Add TVDB anime ID preference to avoid per-season IMDB splits (#1952) @skoruppa\r\n- Revert \"perf(navigation): reduce tab switch animation stalls\" @tapframe\r\n- fix(player): keep android landscape lock during exit @tapframe\r\n- fix(profiles): add active profile toast and back button @tapframe\r\n- fix(profiles): prevent selecting the active profile @tapframe\r\n- fix(player): hide addons with no streams @tapframe\r\n- fix(player): start playback without waiting for addon subtitles (#1949) @halibiram\r\n- fix(trailer): open ios playback in fullscreen @tapframe\r\n- Fix anime skip mapping, subtitle language detection, watched badges and Polish translations (#1943) @skoruppa\r\n- fix(library): restore LaunchedEffect import after the 0.4.21 merge @luqmanfadlli\r\n- feat(streams): add pinned stream sources @luqmanfadlli",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.21/Nuvio-v0.4.21-Enhanced.ipa",
+          "size": 66287229,
+          "minOSVersion": "16.1"
+        },
+        {
           "version": "0.4.20",
           "date": "2026-09-14T09:40:35Z",
           "localizedDescription": "- feat(streams): add mobile background selection @tapframe\r\n- fix(player): center loading title and logo @tapframe\r\n- feat(player): dismiss next episode prompt with a right swipe @tapframe\r\n- fix(details): match toggle styles and remove duplicate season headings @tapframe\r\n- fix(library): sync title logo @tapframe\r\n- fix(details): use localized landscape backdrops @tapframe\r\n- feat(trailer): add fullscreen playback @tapframe\r\n- perf(navigation): reduce tab switch animation stalls @tapframe\r\n- Revert \"fix(streams): position sources panel below ios toolbar\" @luqmanfadlli\r\n- fix(navigation): let navbar pass through empty-area touches on iOS @luqmanfadlli\r\n- chore(home): drop unused BoxWithConstraints import from HomeScreen.kt @luqmanfadlli \r\n- fix(library): restore BoxWithConstraints import for the release calendar in LibraryScreen.kt @luqmanfadlli",
@@ -44,21 +52,13 @@
           "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.16/Nuvio-v0.4.16-Enhanced.ipa",
           "size": 66025212,
           "minOSVersion": "16.1"
-        },
-        {
-          "version": "0.4.15",
-          "date": "2026-09-09T13:18:39Z",
-          "localizedDescription": "## Upstream changelog:\r\n- fix(auth): synchronize shared client initialization @tapframe\r\n- fix(home): restore hero position when switching profiles @tapframe\r\n- fix(playback): disable play when no source is available @tapframe\r\n- fix(home): reduce hero height without continue watching @tapframe\r\n- Fix NetworkOnMainThreadException when starting a download (#1893) @Axl-Lvy\r\n- feat: custom static colours @tapframe\r\n- feat(members): custom gradient @tapframe\r\n- Added Russian translation (#1886) @zamalatb\r\n- fix(downloads): exclude foreground service from playstore builds @tapframe\r\n- fix(player): preserve each foreground service start notification @tapframe\r\n- fix(player): synchronize native subtitle rendering @tapframe\r\n- fix(player): resolve subtitle formats off the main thread @tapframe\r\n- feat(ui): unify skeleton loading states @tapframe\r\n- perf(home): improve lazy list item reuse @tapframe\r\n- perf(startup): avoid redundant collection and catalog processing @tapframe\r\n- perf(ios): release temporary GIF decoding resources @tapframe\r\n- perf(loading): cache bundled animation resource reads @tapframe\r\n- perf(ui): defer loading and parallax state reads @tapframe\r\n- fix(streams): refresh resume position Fixes #1866 @tapframe\r\n- fix(android): background downloads @tapframe\r\n\r\n## Enhanced changelog:\r\n- All changes from the upstream\r\n- fix(discover): keep discover filters visible while scrolling @luqmanfadlli\r\n- fix(navigation): hide native navigation bar on stream route @albertovinaroz\r\n- fix(calendar): open series detail at selected episode from library calendar @luqmanfadlli\r\n- fix(calendar): load calendar releases on demand by month @luqmanfadlli\r\n- feat(calendar): add swipe calendar month navigation @luqmanfadlli\r\n- feat(player): auto-show subtitles on rewind and mute @albertovinaroz\r\n- fix(details): stop hero trailer when leaving details to play something @albertovinaroz\r\n- fix(merge): reconcile upstream changes @luqmanfadlli",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.15/Nuvio-v0.4.15-Enhanced.ipa",
-          "size": 67833285,
-          "minOSVersion": "16.1"
         }
       ],
-      "version": "0.4.20",
-      "versionDate": "2026-09-14T09:40:35Z",
-      "versionDescription": "- feat(streams): add mobile background selection @tapframe\r\n- fix(player): center loading title and logo @tapframe\r\n- feat(player): dismiss next episode prompt with a right swipe @tapframe\r\n- fix(details): match toggle styles and remove duplicate season headings @tapframe\r\n- fix(library): sync title logo @tapframe\r\n- fix(details): use localized landscape backdrops @tapframe\r\n- feat(trailer): add fullscreen playback @tapframe\r\n- perf(navigation): reduce tab switch animation stalls @tapframe\r\n- Revert \"fix(streams): position sources panel below ios toolbar\" @luqmanfadlli\r\n- fix(navigation): let navbar pass through empty-area touches on iOS @luqmanfadlli\r\n- chore(home): drop unused BoxWithConstraints import from HomeScreen.kt @luqmanfadlli \r\n- fix(library): restore BoxWithConstraints import for the release calendar in LibraryScreen.kt @luqmanfadlli",
-      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.20/Nuvio-v0.4.20-Enhanced.ipa",
-      "size": 66202899,
+      "version": "0.4.21",
+      "versionDate": "2026-09-16T01:25:22Z",
+      "versionDescription": "- fix(home): match continue watching badge colors to tv @tapframe\r\n- perf(navigation): reduce root tab switch stalls @tapframe\r\n- Add TVDB anime ID preference to avoid per-season IMDB splits (#1952) @skoruppa\r\n- Revert \"perf(navigation): reduce tab switch animation stalls\" @tapframe\r\n- fix(player): keep android landscape lock during exit @tapframe\r\n- fix(profiles): add active profile toast and back button @tapframe\r\n- fix(profiles): prevent selecting the active profile @tapframe\r\n- fix(player): hide addons with no streams @tapframe\r\n- fix(player): start playback without waiting for addon subtitles (#1949) @halibiram\r\n- fix(trailer): open ios playback in fullscreen @tapframe\r\n- Fix anime skip mapping, subtitle language detection, watched badges and Polish translations (#1943) @skoruppa\r\n- fix(library): restore LaunchedEffect import after the 0.4.21 merge @luqmanfadlli\r\n- feat(streams): add pinned stream sources @luqmanfadlli",
+      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.21/Nuvio-v0.4.21-Enhanced.ipa",
+      "size": 66287229,
       "iconURL": "https://bradleymk21.github.io/Nuvio-Enhanced/icon.png",
       "tintColor": "#6C5CE7"
     }
