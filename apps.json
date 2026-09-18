@@ -14,6 +14,14 @@
       "category": "entertainment",
       "versions": [
         {
+          "version": "0.4.24",
+          "date": "2026-09-18T19:57:33Z",
+          "localizedDescription": "- feat(trailers): let each hero trailer start with sound @luqmanfadlli\r\n- fix(ios): open the downloads folder in Files @luqmanfadlli\r\n- feat(downloads): add an optional download button to the details screen @luqmanfadlli\r\n- fix(player): remove extra bottom padding on ios @tapframe\r\n- fix(player): remember brightness across playback sessions @tapframe\r\n- fix(player): reset auto-hide timer on control interactions @tapframe\r\n- feat(player): add runtime toggle and adjust control overflow @tapframe\r\n- feat(player): update gesture indicators for new layout @tapframe\r\n- feat(player): follow design parity @tapframe\r\n- feat(theme): apply the accent gradient to icons, accents and buttons @luqmanfadlli\r\n- fix(ios): tint the glass tab bar with the full theme gradient @luqmanfadlli\r\n- feat(livetv): pin search and filters with a sticky header @luqmanfadlli\r\n- perf(ios): cap the mpv demuxer cache to avoid jetsam on 4K HDR @luqmanfadlli\r\n- fix(ios): bundle Latin subtitle font and license @mucahitpe\r\n- fix(ios): stabilize subtitle font resolver @mucahitpe\r\n- feat(settings): add rating visibility controls @tapframe",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.24-beta/Nuvio-0.4.24-Enhanced.ipa",
+          "size": 66911481,
+          "minOSVersion": "16.1"
+        },
+        {
           "version": "0.4.23",
           "date": "2026-09-17T11:01:42Z",
           "localizedDescription": "- fix(simkl): retain posters when marking items watched @tapframe\r\n- fix(home): restore wide continue watching sizing @tapframe\r\n- i18n(vi): update latest Vietnamese strings (#1975) @blueocean2308\r\n- fix(ui): use filled chips and consistent surface colors @tapframe\r\n- feat(playback): support IntroDB movie segments and external forwarding (#1963) @Laskco\r\n- fix(ios): resume paused downloads from where they left off @luqmanfadlli \r\n- fix(android): start download transfer without waiting for subtitles @luqmanfadlli \r\n- fix(merge): drop duplicate CancellationException import in SkipIntroApi @luqmanfadlli",
@@ -44,21 +52,13 @@
           "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.20/Nuvio-v0.4.20-Enhanced.ipa",
           "size": 66202899,
           "minOSVersion": "16.1"
-        },
-        {
-          "version": "0.4.19",
-          "date": "2026-09-14T04:29:04Z",
-          "localizedDescription": "- fix(profiles): stabilize popup size transitions @tapframe\r\n- fix(details): apply poster radius to episode list cards @tapframe\r\n- fix(home): apply poster settings to continue watching cards @tapframe\r\n- fix(streams): position sources panel below ios toolbar @tapframe\r\n- fix(navigation): preserve tab animation on tap release @tapframe\r\n- fix(profiles): correct avatar grid spacing and selection border @tapframe\r\n- feat(player): match tv autoplay loading screen @tapframe\r\n- fix(settings): match custom theme sheet background @tapframe\r\n- fix(catalog): update items after library removal @tapframe\r\n- fix(navigation): correct poster zoom positioning in rtl @tapframe\r\n- fix(settings): update selection indicators @tapframe\r\n- feat(profiles): redesign compact profile picker @tapframe\r\n- feat(navigation): add glow controls and live preview @tapframe\r\n- fix(navigation): keep tablet floating bar compact @tapframe\r\n- fix(navigation): restore floating bar backdrop tint @tapframe\r\n- fix(navigation): restore tab indicator after profile long press @tapframe\r\n- feat(player): add pause overlay toggle @tapframe\r\n- fix(details): handle null specials poster placeholders @tapframe\r\n- fix(player): disable playback gestures during initial loading @tapframe\r\n- fix(android): correct bottom navigation behavior in RTL (#1926) @i7xre\r\n- i18n(vi): update latest Vietnamese strings (#1923) @blueocean2308\r\n- Update Czech translation (#1919) @scarzxx\r\n- feat(downloads): add support for bundling addon subs while downloading @tapframe\r\n- fix(streams): prevent rotation when opening manual selection @tapframe\r\n- feat(search): add recent searches toggle @tapframe\r\n- fix(tmdb): use bundled API key @tapframe\r\n- fix(navigation): restore navbar and gesture on StreamRoute @luqmanfadlli\r\n- feat(details): show IMDb and TMDB episode ratings together @luqmanfadlli\r\n- fix(livetv): stop category panel clipping in landscape and on tablet @luqmanfadlli",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.19/Nuvio-v0.4.19-Enhanced.ipa",
-          "size": 66122278,
-          "minOSVersion": "16.1"
         }
       ],
-      "version": "0.4.23",
-      "versionDate": "2026-09-17T11:01:42Z",
-      "versionDescription": "- fix(simkl): retain posters when marking items watched @tapframe\r\n- fix(home): restore wide continue watching sizing @tapframe\r\n- i18n(vi): update latest Vietnamese strings (#1975) @blueocean2308\r\n- fix(ui): use filled chips and consistent surface colors @tapframe\r\n- feat(playback): support IntroDB movie segments and external forwarding (#1963) @Laskco\r\n- fix(ios): resume paused downloads from where they left off @luqmanfadlli \r\n- fix(android): start download transfer without waiting for subtitles @luqmanfadlli \r\n- fix(merge): drop duplicate CancellationException import in SkipIntroApi @luqmanfadlli",
-      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.23-beta/Nuvio-v0.4.23-Enhanced.ipa",
-      "size": 66509993,
+      "version": "0.4.24",
+      "versionDate": "2026-09-18T19:57:33Z",
+      "versionDescription": "- feat(trailers): let each hero trailer start with sound @luqmanfadlli\r\n- fix(ios): open the downloads folder in Files @luqmanfadlli\r\n- feat(downloads): add an optional download button to the details screen @luqmanfadlli\r\n- fix(player): remove extra bottom padding on ios @tapframe\r\n- fix(player): remember brightness across playback sessions @tapframe\r\n- fix(player): reset auto-hide timer on control interactions @tapframe\r\n- feat(player): add runtime toggle and adjust control overflow @tapframe\r\n- feat(player): update gesture indicators for new layout @tapframe\r\n- feat(player): follow design parity @tapframe\r\n- feat(theme): apply the accent gradient to icons, accents and buttons @luqmanfadlli\r\n- fix(ios): tint the glass tab bar with the full theme gradient @luqmanfadlli\r\n- feat(livetv): pin search and filters with a sticky header @luqmanfadlli\r\n- perf(ios): cap the mpv demuxer cache to avoid jetsam on 4K HDR @luqmanfadlli\r\n- fix(ios): bundle Latin subtitle font and license @mucahitpe\r\n- fix(ios): stabilize subtitle font resolver @mucahitpe\r\n- feat(settings): add rating visibility controls @tapframe",
+      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.24-beta/Nuvio-0.4.24-Enhanced.ipa",
+      "size": 66911481,
       "iconURL": "https://bradleymk21.github.io/Nuvio-Enhanced/icon.png",
       "tintColor": "#6C5CE7"
     }
