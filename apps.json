@@ -14,6 +14,14 @@
       "category": "entertainment",
       "versions": [
         {
+          "version": "0.4.25",
+          "date": "2026-09-19T17:31:24Z",
+          "localizedDescription": "- fix(details): keep the hero blend layer below the content @luqmanfadlli\r\n- feat(player): show seek, volume, and brightness values in the new layout @luqmanfadlli\r\n- fix(home): prevent hero flash when cycling @tapframe\r\n- i18n(el): translate new 0.4.24 strings and refresh stale ones @nosvasedis\r\n- revert(ui): restore previous surface and chip styles @tapframe\r\n- test(simkl): expect the percentage an episode row really carries @Judzim\r\n- fix(simkl): stop inventing an episode position out of the show runtime @Judzim\r\n- fix(simkl): keep a pause the app just recorded over a fetch that lags @Judzim\r\n- fix(simkl): never push a whole-series mark to Simkl history @Judzim\r\n- fix(player): restore the PiP, quality chooser, and info button in the new layout @luqmanfadlli\r\n- fix(ui): fade the primary button's gradient when it is disabled @luqmanfadlli\r\n- fix(downloads): tint the open downloads folder icon @luqmanfadlli",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.25-beta/Nuvio-0.4.25-Enhanced.ipa",
+          "size": 66955980,
+          "minOSVersion": "16.1"
+        },
+        {
           "version": "0.4.24",
           "date": "2026-09-18T19:57:33Z",
           "localizedDescription": "- feat(trailers): let each hero trailer start with sound @luqmanfadlli\r\n- fix(ios): open the downloads folder in Files @luqmanfadlli\r\n- feat(downloads): add an optional download button to the details screen @luqmanfadlli\r\n- fix(player): remove extra bottom padding on ios @tapframe\r\n- fix(player): remember brightness across playback sessions @tapframe\r\n- fix(player): reset auto-hide timer on control interactions @tapframe\r\n- feat(player): add runtime toggle and adjust control overflow @tapframe\r\n- feat(player): update gesture indicators for new layout @tapframe\r\n- feat(player): follow design parity @tapframe\r\n- feat(theme): apply the accent gradient to icons, accents and buttons @luqmanfadlli\r\n- fix(ios): tint the glass tab bar with the full theme gradient @luqmanfadlli\r\n- feat(livetv): pin search and filters with a sticky header @luqmanfadlli\r\n- perf(ios): cap the mpv demuxer cache to avoid jetsam on 4K HDR @luqmanfadlli\r\n- fix(ios): bundle Latin subtitle font and license @mucahitpe\r\n- fix(ios): stabilize subtitle font resolver @mucahitpe\r\n- feat(settings): add rating visibility controls @tapframe",
@@ -44,21 +52,13 @@
           "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.21/Nuvio-v0.4.21-Enhanced.ipa",
           "size": 66287229,
           "minOSVersion": "16.1"
-        },
-        {
-          "version": "0.4.20",
-          "date": "2026-09-14T09:40:35Z",
-          "localizedDescription": "- feat(streams): add mobile background selection @tapframe\r\n- fix(player): center loading title and logo @tapframe\r\n- feat(player): dismiss next episode prompt with a right swipe @tapframe\r\n- fix(details): match toggle styles and remove duplicate season headings @tapframe\r\n- fix(library): sync title logo @tapframe\r\n- fix(details): use localized landscape backdrops @tapframe\r\n- feat(trailer): add fullscreen playback @tapframe\r\n- perf(navigation): reduce tab switch animation stalls @tapframe\r\n- Revert \"fix(streams): position sources panel below ios toolbar\" @luqmanfadlli\r\n- fix(navigation): let navbar pass through empty-area touches on iOS @luqmanfadlli\r\n- chore(home): drop unused BoxWithConstraints import from HomeScreen.kt @luqmanfadlli \r\n- fix(library): restore BoxWithConstraints import for the release calendar in LibraryScreen.kt @luqmanfadlli",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.20/Nuvio-v0.4.20-Enhanced.ipa",
-          "size": 66202899,
-          "minOSVersion": "16.1"
         }
       ],
-      "version": "0.4.24",
-      "versionDate": "2026-09-18T19:57:33Z",
-      "versionDescription": "- feat(trailers): let each hero trailer start with sound @luqmanfadlli\r\n- fix(ios): open the downloads folder in Files @luqmanfadlli\r\n- feat(downloads): add an optional download button to the details screen @luqmanfadlli\r\n- fix(player): remove extra bottom padding on ios @tapframe\r\n- fix(player): remember brightness across playback sessions @tapframe\r\n- fix(player): reset auto-hide timer on control interactions @tapframe\r\n- feat(player): add runtime toggle and adjust control overflow @tapframe\r\n- feat(player): update gesture indicators for new layout @tapframe\r\n- feat(player): follow design parity @tapframe\r\n- feat(theme): apply the accent gradient to icons, accents and buttons @luqmanfadlli\r\n- fix(ios): tint the glass tab bar with the full theme gradient @luqmanfadlli\r\n- feat(livetv): pin search and filters with a sticky header @luqmanfadlli\r\n- perf(ios): cap the mpv demuxer cache to avoid jetsam on 4K HDR @luqmanfadlli\r\n- fix(ios): bundle Latin subtitle font and license @mucahitpe\r\n- fix(ios): stabilize subtitle font resolver @mucahitpe\r\n- feat(settings): add rating visibility controls @tapframe",
-      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.24-beta/Nuvio-0.4.24-Enhanced.ipa",
-      "size": 66911481,
+      "version": "0.4.25",
+      "versionDate": "2026-09-19T17:31:24Z",
+      "versionDescription": "- fix(details): keep the hero blend layer below the content @luqmanfadlli\r\n- feat(player): show seek, volume, and brightness values in the new layout @luqmanfadlli\r\n- fix(home): prevent hero flash when cycling @tapframe\r\n- i18n(el): translate new 0.4.24 strings and refresh stale ones @nosvasedis\r\n- revert(ui): restore previous surface and chip styles @tapframe\r\n- test(simkl): expect the percentage an episode row really carries @Judzim\r\n- fix(simkl): stop inventing an episode position out of the show runtime @Judzim\r\n- fix(simkl): keep a pause the app just recorded over a fetch that lags @Judzim\r\n- fix(simkl): never push a whole-series mark to Simkl history @Judzim\r\n- fix(player): restore the PiP, quality chooser, and info button in the new layout @luqmanfadlli\r\n- fix(ui): fade the primary button's gradient when it is disabled @luqmanfadlli\r\n- fix(downloads): tint the open downloads folder icon @luqmanfadlli",
+      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.25-beta/Nuvio-0.4.25-Enhanced.ipa",
+      "size": 66955980,
       "iconURL": "https://bradleymk21.github.io/Nuvio-Enhanced/icon.png",
       "tintColor": "#6C5CE7"
     }
