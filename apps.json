@@ -14,6 +14,14 @@
       "category": "entertainment",
       "versions": [
         {
+          "version": "0.4.26",
+          "date": "2026-09-21T11:56:33Z",
+          "localizedDescription": "- fix(merge): keep source pinning in the shared provider filter row @luqmanfadlli\r\n- feat(downloads): show the download button by default @luqmanfadlli\r\n- fix(navigation): keep the iPad floating bar on the tab that is showing @luqmanfadlli\r\n- feat(navigation): bring the jelly floating nav bar to iPad @luqmanfadlli\r\n- feat(details): show the library icon on saved items @luqmanfadlli\r\n- fix(ios): stop the tab bar crashing when Live TV is disabled @luqmanfadlli\r\n- fix(streams): share addon filtering across pickers @tapframe\r\n- i18n(nb): complete missing Norwegian Bokmål strings @SimSalabimse\r\n- feat(streams): add an optional search bar to the stream selection screen @luqmanfadlli\r\n- feat(details): put the actions in an icon row under play @luqmanfadlli",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.26-beta/Nuvio-0.4.26-Enhanced.ipa",
+          "size": 67100856,
+          "minOSVersion": "16.1"
+        },
+        {
           "version": "0.4.25",
           "date": "2026-09-19T17:31:24Z",
           "localizedDescription": "- fix(details): keep the hero blend layer below the content @luqmanfadlli\r\n- feat(player): show seek, volume, and brightness values in the new layout @luqmanfadlli\r\n- fix(home): prevent hero flash when cycling @tapframe\r\n- i18n(el): translate new 0.4.24 strings and refresh stale ones @nosvasedis\r\n- revert(ui): restore previous surface and chip styles @tapframe\r\n- test(simkl): expect the percentage an episode row really carries @Judzim\r\n- fix(simkl): stop inventing an episode position out of the show runtime @Judzim\r\n- fix(simkl): keep a pause the app just recorded over a fetch that lags @Judzim\r\n- fix(simkl): never push a whole-series mark to Simkl history @Judzim\r\n- fix(player): restore the PiP, quality chooser, and info button in the new layout @luqmanfadlli\r\n- fix(ui): fade the primary button's gradient when it is disabled @luqmanfadlli\r\n- fix(downloads): tint the open downloads folder icon @luqmanfadlli",
@@ -44,21 +52,13 @@
           "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.22/Nuvio-v0.4.22-Enhanced.ipa",
           "size": 66450409,
           "minOSVersion": "16.1"
-        },
-        {
-          "version": "0.4.21",
-          "date": "2026-09-16T01:25:22Z",
-          "localizedDescription": "- fix(home): match continue watching badge colors to tv @tapframe\r\n- perf(navigation): reduce root tab switch stalls @tapframe\r\n- Add TVDB anime ID preference to avoid per-season IMDB splits (#1952) @skoruppa\r\n- Revert \"perf(navigation): reduce tab switch animation stalls\" @tapframe\r\n- fix(player): keep android landscape lock during exit @tapframe\r\n- fix(profiles): add active profile toast and back button @tapframe\r\n- fix(profiles): prevent selecting the active profile @tapframe\r\n- fix(player): hide addons with no streams @tapframe\r\n- fix(player): start playback without waiting for addon subtitles (#1949) @halibiram\r\n- fix(trailer): open ios playback in fullscreen @tapframe\r\n- Fix anime skip mapping, subtitle language detection, watched badges and Polish translations (#1943) @skoruppa\r\n- fix(library): restore LaunchedEffect import after the 0.4.21 merge @luqmanfadlli\r\n- feat(streams): add pinned stream sources @luqmanfadlli",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.21/Nuvio-v0.4.21-Enhanced.ipa",
-          "size": 66287229,
-          "minOSVersion": "16.1"
         }
       ],
-      "version": "0.4.25",
-      "versionDate": "2026-09-19T17:31:24Z",
-      "versionDescription": "- fix(details): keep the hero blend layer below the content @luqmanfadlli\r\n- feat(player): show seek, volume, and brightness values in the new layout @luqmanfadlli\r\n- fix(home): prevent hero flash when cycling @tapframe\r\n- i18n(el): translate new 0.4.24 strings and refresh stale ones @nosvasedis\r\n- revert(ui): restore previous surface and chip styles @tapframe\r\n- test(simkl): expect the percentage an episode row really carries @Judzim\r\n- fix(simkl): stop inventing an episode position out of the show runtime @Judzim\r\n- fix(simkl): keep a pause the app just recorded over a fetch that lags @Judzim\r\n- fix(simkl): never push a whole-series mark to Simkl history @Judzim\r\n- fix(player): restore the PiP, quality chooser, and info button in the new layout @luqmanfadlli\r\n- fix(ui): fade the primary button's gradient when it is disabled @luqmanfadlli\r\n- fix(downloads): tint the open downloads folder icon @luqmanfadlli",
-      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.25-beta/Nuvio-0.4.25-Enhanced.ipa",
-      "size": 66955980,
+      "version": "0.4.26",
+      "versionDate": "2026-09-21T11:56:33Z",
+      "versionDescription": "- fix(merge): keep source pinning in the shared provider filter row @luqmanfadlli\r\n- feat(downloads): show the download button by default @luqmanfadlli\r\n- fix(navigation): keep the iPad floating bar on the tab that is showing @luqmanfadlli\r\n- feat(navigation): bring the jelly floating nav bar to iPad @luqmanfadlli\r\n- feat(details): show the library icon on saved items @luqmanfadlli\r\n- fix(ios): stop the tab bar crashing when Live TV is disabled @luqmanfadlli\r\n- fix(streams): share addon filtering across pickers @tapframe\r\n- i18n(nb): complete missing Norwegian Bokmål strings @SimSalabimse\r\n- feat(streams): add an optional search bar to the stream selection screen @luqmanfadlli\r\n- feat(details): put the actions in an icon row under play @luqmanfadlli",
+      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.26-beta/Nuvio-0.4.26-Enhanced.ipa",
+      "size": 67100856,
       "iconURL": "https://bradleymk21.github.io/Nuvio-Enhanced/icon.png",
       "tintColor": "#6C5CE7"
     }
