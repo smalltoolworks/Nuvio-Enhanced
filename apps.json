@@ -14,6 +14,14 @@
       "category": "entertainment",
       "versions": [
         {
+          "version": "0.5.0",
+          "date": "2026-09-22T10:50:53Z",
+          "localizedDescription": "- fix(ios): end the downloads Live Activity background task on the main actor @luqmanfadlli\r\n- feat(player): snooze the movie recommendation card for a minute on dismiss @luqmanfadlli\r\n- feat(player): suggest More Like This titles at the end of a movie @luqmanfadlli\r\n- fix(library): load and persist episode release schedule from app start @luqmanfadlli\r\n- feat(profile): iOS-style floating header on the Android Profile page @luqmanfadlli\r\n- feat(settings): collapse tracker cards by default @tapframe\r\n- fix(player): restore subtitles for each episode @tapframe\r\n- feat(profile): split finished titles into Watched, Completed and Episodes @luqmanfadlli\r\n- fix(profile): show next-7-day episodes under Profile Insight's Upcoming @luqmanfadlli\r\n- feat(profile): move edit/switch/save actions to circular header buttons @albertovinaroz\r\n- feat(settings): redesign the Profile page hero @albertovinaroz\r\n- fix(ios): align the morphed tab bar handoff with the native UITabBar @luqmanfadlli\r\n- feat(mdblist): use connected account for ratings with api key override @tapframe\r\n- fix(ios): run each plugin on its own large-stack thread to restore scraping speed @luqmanfadlli\r\n- Get rid of Tmbd Dates Enrichment @skoruppa\r\n- test(player): cover MX Player completion results without position @zuko726\r\n- fix(player): record position-less external results when the player reports completion @zuko726\r\n- fix(player): keep external player results that report completion without a position @zuko726\r\n- fix(tmdb): sort blank collection release dates last tapframe\r\n- fix(ios): use clean player framework archive tapframe\r\n- fix(player): preserve iOS audio during calls @tapframe\r\n- fix(poster): reload pattern on profile switch @tapframe\r\n- fix(poster): add missing iOS annotation import @tapframe\r\n- Custom poster URL pattern support @skoruppa",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.0-beta/Nuvio-0.5.0-Enhanced.ipa",
+          "size": 67967466,
+          "minOSVersion": "16.1"
+        },
+        {
           "version": "0.4.26",
           "date": "2026-09-21T11:56:33Z",
           "localizedDescription": "- fix(merge): keep source pinning in the shared provider filter row @luqmanfadlli\r\n- feat(downloads): show the download button by default @luqmanfadlli\r\n- fix(navigation): keep the iPad floating bar on the tab that is showing @luqmanfadlli\r\n- feat(navigation): bring the jelly floating nav bar to iPad @luqmanfadlli\r\n- feat(details): show the library icon on saved items @luqmanfadlli\r\n- fix(ios): stop the tab bar crashing when Live TV is disabled @luqmanfadlli\r\n- fix(streams): share addon filtering across pickers @tapframe\r\n- i18n(nb): complete missing Norwegian Bokmål strings @SimSalabimse\r\n- feat(streams): add an optional search bar to the stream selection screen @luqmanfadlli\r\n- feat(details): put the actions in an icon row under play @luqmanfadlli",
@@ -44,21 +52,13 @@
           "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.23-beta/Nuvio-v0.4.23-Enhanced.ipa",
           "size": 66509993,
           "minOSVersion": "16.1"
-        },
-        {
-          "version": "0.4.22",
-          "date": "2026-09-17T05:07:23Z",
-          "localizedDescription": "- feat(updater): add stable and beta update channels @tapframe\r\n- feat(tmdb): add personal API key override with credential sync @tapframe\r\n- feat(details): parse addon episode runtimes @tapframe\r\n- Use addon imdb_id as fallback for non-IMDB content enrichment (#1966) @skoruppa\r\n- fix(settings): keep page content visible during navigation @tapframe\r\n- i18n(vi): update latest Vietnamese strings (#1959) @blueocean2308\r\n- fix: limit anime ID preference to entries with anime-specific IDs (#1955) @skoruppa\r\n- feat(ratings): add rotten tomatoes status icons @tapframe\r\n- fix(downloads): write Android downloads to the custom download location @luqmanfadlli \r\n- fix(streams): pin individual providers instead of whole source groups @luqmanfadlli \r\n- fix(ios): stop isa-swizzling UINavigationBar for empty-area passthrough @luqmanfadlli \r\n- fix(ios): run plugins on large-stack threads to prevent QuickJS stack overflow @luqmanfadlli \r\n- fix(merge): keep in-app updates on this fork's release page @luqmanfadlli \r\n- fix(ios): import kotlinx.coroutines.Runnable in plugin dispatcher @luqmanfadlli",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.22/Nuvio-v0.4.22-Enhanced.ipa",
-          "size": 66450409,
-          "minOSVersion": "16.1"
         }
       ],
-      "version": "0.4.26",
-      "versionDate": "2026-09-21T11:56:33Z",
-      "versionDescription": "- fix(merge): keep source pinning in the shared provider filter row @luqmanfadlli\r\n- feat(downloads): show the download button by default @luqmanfadlli\r\n- fix(navigation): keep the iPad floating bar on the tab that is showing @luqmanfadlli\r\n- feat(navigation): bring the jelly floating nav bar to iPad @luqmanfadlli\r\n- feat(details): show the library icon on saved items @luqmanfadlli\r\n- fix(ios): stop the tab bar crashing when Live TV is disabled @luqmanfadlli\r\n- fix(streams): share addon filtering across pickers @tapframe\r\n- i18n(nb): complete missing Norwegian Bokmål strings @SimSalabimse\r\n- feat(streams): add an optional search bar to the stream selection screen @luqmanfadlli\r\n- feat(details): put the actions in an icon row under play @luqmanfadlli",
-      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.26-beta/Nuvio-0.4.26-Enhanced.ipa",
-      "size": 67100856,
+      "version": "0.5.0",
+      "versionDate": "2026-09-22T10:50:53Z",
+      "versionDescription": "- fix(ios): end the downloads Live Activity background task on the main actor @luqmanfadlli\r\n- feat(player): snooze the movie recommendation card for a minute on dismiss @luqmanfadlli\r\n- feat(player): suggest More Like This titles at the end of a movie @luqmanfadlli\r\n- fix(library): load and persist episode release schedule from app start @luqmanfadlli\r\n- feat(profile): iOS-style floating header on the Android Profile page @luqmanfadlli\r\n- feat(settings): collapse tracker cards by default @tapframe\r\n- fix(player): restore subtitles for each episode @tapframe\r\n- feat(profile): split finished titles into Watched, Completed and Episodes @luqmanfadlli\r\n- fix(profile): show next-7-day episodes under Profile Insight's Upcoming @luqmanfadlli\r\n- feat(profile): move edit/switch/save actions to circular header buttons @albertovinaroz\r\n- feat(settings): redesign the Profile page hero @albertovinaroz\r\n- fix(ios): align the morphed tab bar handoff with the native UITabBar @luqmanfadlli\r\n- feat(mdblist): use connected account for ratings with api key override @tapframe\r\n- fix(ios): run each plugin on its own large-stack thread to restore scraping speed @luqmanfadlli\r\n- Get rid of Tmbd Dates Enrichment @skoruppa\r\n- test(player): cover MX Player completion results without position @zuko726\r\n- fix(player): record position-less external results when the player reports completion @zuko726\r\n- fix(player): keep external player results that report completion without a position @zuko726\r\n- fix(tmdb): sort blank collection release dates last tapframe\r\n- fix(ios): use clean player framework archive tapframe\r\n- fix(player): preserve iOS audio during calls @tapframe\r\n- fix(poster): reload pattern on profile switch @tapframe\r\n- fix(poster): add missing iOS annotation import @tapframe\r\n- Custom poster URL pattern support @skoruppa",
+      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.0-beta/Nuvio-0.5.0-Enhanced.ipa",
+      "size": 67967466,
       "iconURL": "https://bradleymk21.github.io/Nuvio-Enhanced/icon.png",
       "tintColor": "#6C5CE7"
     }
