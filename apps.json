@@ -14,6 +14,14 @@
       "category": "entertainment",
       "versions": [
         {
+          "version": "0.5.1",
+          "date": "2026-09-23T13:14:25Z",
+          "localizedDescription": "- fix: MDBList login @luqmanfadlli \r\n- fix(player): time the movie recommendations to the last two minutes @luqmanfadlli\r\n- fix(navigation): keep the tab bar on Settings sub-pages @luqmanfadlli\r\n- feat(navigation): inline labels on the tablet floating pill @luqmanfadlli\r\n- fix(ios): fix Live TV visibility and legacy tab bar on iOS 26+ @luqmanfadlli\r\n- fix(mdblist): correct library sorting @tapframe\r\n- feat(settings): let the floating nav bar sit at the top @luqmanfadlli\r\n- fix(navigation): skip the pill slide on iPad after a drag @luqmanfadlli\r\n- fix(mdblist): batch and reuse rating requests @tapframe\r\n- update latest Vietnamese strings @blueocean2308\r\n- Fix collections race condition @skoruppa\r\n- fix(details) adapt to the new aiom season poster method @chrisk325\r\n- Landscape posters in library @skoruppa\r\n- feat: traducir strings pendientes al castellano @IberianSoldierPC\r\n- Fix custom posters missing in tmdb/trakt collections @skoruppa",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.1-beta/Nuvio-0.5.1-Enhanced.ipa",
+          "size": 68031189,
+          "minOSVersion": "16.1"
+        },
+        {
           "version": "0.5.0",
           "date": "2026-09-22T10:50:53Z",
           "localizedDescription": "- fix(ios): end the downloads Live Activity background task on the main actor @luqmanfadlli\r\n- feat(player): snooze the movie recommendation card for a minute on dismiss @luqmanfadlli\r\n- feat(player): suggest More Like This titles at the end of a movie @luqmanfadlli\r\n- fix(library): load and persist episode release schedule from app start @luqmanfadlli\r\n- feat(profile): iOS-style floating header on the Android Profile page @luqmanfadlli\r\n- feat(settings): collapse tracker cards by default @tapframe\r\n- fix(player): restore subtitles for each episode @tapframe\r\n- feat(profile): split finished titles into Watched, Completed and Episodes @luqmanfadlli\r\n- fix(profile): show next-7-day episodes under Profile Insight's Upcoming @luqmanfadlli\r\n- feat(profile): move edit/switch/save actions to circular header buttons @albertovinaroz\r\n- feat(settings): redesign the Profile page hero @albertovinaroz\r\n- fix(ios): align the morphed tab bar handoff with the native UITabBar @luqmanfadlli\r\n- feat(mdblist): use connected account for ratings with api key override @tapframe\r\n- fix(ios): run each plugin on its own large-stack thread to restore scraping speed @luqmanfadlli\r\n- Get rid of Tmbd Dates Enrichment @skoruppa\r\n- test(player): cover MX Player completion results without position @zuko726\r\n- fix(player): record position-less external results when the player reports completion @zuko726\r\n- fix(player): keep external player results that report completion without a position @zuko726\r\n- fix(tmdb): sort blank collection release dates last tapframe\r\n- fix(ios): use clean player framework archive tapframe\r\n- fix(player): preserve iOS audio during calls @tapframe\r\n- fix(poster): reload pattern on profile switch @tapframe\r\n- fix(poster): add missing iOS annotation import @tapframe\r\n- Custom poster URL pattern support @skoruppa",
@@ -44,21 +52,13 @@
           "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.24-beta/Nuvio-0.4.24-Enhanced.ipa",
           "size": 66911481,
           "minOSVersion": "16.1"
-        },
-        {
-          "version": "0.4.23",
-          "date": "2026-09-17T11:01:42Z",
-          "localizedDescription": "- fix(simkl): retain posters when marking items watched @tapframe\r\n- fix(home): restore wide continue watching sizing @tapframe\r\n- i18n(vi): update latest Vietnamese strings (#1975) @blueocean2308\r\n- fix(ui): use filled chips and consistent surface colors @tapframe\r\n- feat(playback): support IntroDB movie segments and external forwarding (#1963) @Laskco\r\n- fix(ios): resume paused downloads from where they left off @luqmanfadlli \r\n- fix(android): start download transfer without waiting for subtitles @luqmanfadlli \r\n- fix(merge): drop duplicate CancellationException import in SkipIntroApi @luqmanfadlli",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.23-beta/Nuvio-v0.4.23-Enhanced.ipa",
-          "size": 66509993,
-          "minOSVersion": "16.1"
         }
       ],
-      "version": "0.5.0",
-      "versionDate": "2026-09-22T10:50:53Z",
-      "versionDescription": "- fix(ios): end the downloads Live Activity background task on the main actor @luqmanfadlli\r\n- feat(player): snooze the movie recommendation card for a minute on dismiss @luqmanfadlli\r\n- feat(player): suggest More Like This titles at the end of a movie @luqmanfadlli\r\n- fix(library): load and persist episode release schedule from app start @luqmanfadlli\r\n- feat(profile): iOS-style floating header on the Android Profile page @luqmanfadlli\r\n- feat(settings): collapse tracker cards by default @tapframe\r\n- fix(player): restore subtitles for each episode @tapframe\r\n- feat(profile): split finished titles into Watched, Completed and Episodes @luqmanfadlli\r\n- fix(profile): show next-7-day episodes under Profile Insight's Upcoming @luqmanfadlli\r\n- feat(profile): move edit/switch/save actions to circular header buttons @albertovinaroz\r\n- feat(settings): redesign the Profile page hero @albertovinaroz\r\n- fix(ios): align the morphed tab bar handoff with the native UITabBar @luqmanfadlli\r\n- feat(mdblist): use connected account for ratings with api key override @tapframe\r\n- fix(ios): run each plugin on its own large-stack thread to restore scraping speed @luqmanfadlli\r\n- Get rid of Tmbd Dates Enrichment @skoruppa\r\n- test(player): cover MX Player completion results without position @zuko726\r\n- fix(player): record position-less external results when the player reports completion @zuko726\r\n- fix(player): keep external player results that report completion without a position @zuko726\r\n- fix(tmdb): sort blank collection release dates last tapframe\r\n- fix(ios): use clean player framework archive tapframe\r\n- fix(player): preserve iOS audio during calls @tapframe\r\n- fix(poster): reload pattern on profile switch @tapframe\r\n- fix(poster): add missing iOS annotation import @tapframe\r\n- Custom poster URL pattern support @skoruppa",
-      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.0-beta/Nuvio-0.5.0-Enhanced.ipa",
-      "size": 67967466,
+      "version": "0.5.1",
+      "versionDate": "2026-09-23T13:14:25Z",
+      "versionDescription": "- fix: MDBList login @luqmanfadlli \r\n- fix(player): time the movie recommendations to the last two minutes @luqmanfadlli\r\n- fix(navigation): keep the tab bar on Settings sub-pages @luqmanfadlli\r\n- feat(navigation): inline labels on the tablet floating pill @luqmanfadlli\r\n- fix(ios): fix Live TV visibility and legacy tab bar on iOS 26+ @luqmanfadlli\r\n- fix(mdblist): correct library sorting @tapframe\r\n- feat(settings): let the floating nav bar sit at the top @luqmanfadlli\r\n- fix(navigation): skip the pill slide on iPad after a drag @luqmanfadlli\r\n- fix(mdblist): batch and reuse rating requests @tapframe\r\n- update latest Vietnamese strings @blueocean2308\r\n- Fix collections race condition @skoruppa\r\n- fix(details) adapt to the new aiom season poster method @chrisk325\r\n- Landscape posters in library @skoruppa\r\n- feat: traducir strings pendientes al castellano @IberianSoldierPC\r\n- Fix custom posters missing in tmdb/trakt collections @skoruppa",
+      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.1-beta/Nuvio-0.5.1-Enhanced.ipa",
+      "size": 68031189,
       "iconURL": "https://bradleymk21.github.io/Nuvio-Enhanced/icon.png",
       "tintColor": "#6C5CE7"
     }
