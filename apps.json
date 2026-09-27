@@ -14,6 +14,14 @@
       "category": "entertainment",
       "versions": [
         {
+          "version": "0.5.3",
+          "date": "2026-09-27T05:17:19Z",
+          "localizedDescription": "- fix(ios): restore Now Playing controls by dropping mixWithOthers @luqmanfadlli\r\n- fix(home): use continue watching poster pattern @tapframe\r\n- fix(shuffle): open sheet at full height @tapframe\r\n- fix(details): move shuffle into actions menu @tapframe\r\n- feat(poster): support addon landscape posters @tapframe\r\n- feat(library): animate downloads icon during downloads @tapframe\r\n- feat(library): move downloads to library @tapframe\r\n- feat(ui): restyle dialogs @tapframe\r\n- feat(ui): restyle dropdown menus @tapframe\r\n- feat(ui): restyle bottom sheets @tapframe\r\n- fix(auth): use state-based text fields so autofill sees the username field @luqmanfadlli\r\n- fix(settings): keep Enhanced-only appearance settings device-local @luqmanfadlli\r\n- feat(streams): use shimmer for loading states @tapframe\r\n- feat(spinner): change indicator @tapframe\r\n- i18n(ur): add Urdu localization (#2067) @muzii9\r\n- feat(player): add episode shuffle @tapframe",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.3-beta/Nuvio-0.5.3-Enhanced.ipa",
+          "size": 68569946,
+          "minOSVersion": "16.1"
+        },
+        {
           "version": "0.5.2",
           "date": "2026-09-26T00:04:36Z",
           "localizedDescription": "- fix(catalog): handle Simkl source in More Like This \"View all\" @luqmanfadlli\r\n- fix(streams): use multiplatform synchronization @tapframe\r\n- fix(exo): update buffer defaults @tapframe\r\n- update engine libs @tapframe\r\n- fix(ios): hide home indicator during playback @tapframe\r\n- feat(profile): show Taste DNA genres as a donut chart @luqmanfadlli\r\n- feat(profile): derive Taste DNA genres from watched titles @luqmanfadlli\r\n- fix(profile): measure movie/series leaning by distinct titles @luqmanfadlli\r\n- feat(auth): enable password manager autofill for sign-in/sign-up @luqmanfadlli\r\n- fix(settings): set navigation bar style/position locally @luqmanfadlli\r\n- update latest Vietnamese strings @blueocean2308\r\n- Delay next-episode card until post-credits scene ends @skoruppa\r\n- scope library poster overlay to LIBRARY screen toggle and react to changes @skoruppa\r\n- Use dedicated ImageLoader for stream badges to prevent cache revalidation @skoruppa\r\n- feat(profile): rework the Profile Insight hero, watch time and taste @luqmanfadlli\r\n- feat(library): denser poster grid per device and orientation @luqmanfadlli\r\n- feat: add landscape banner to Simkl More Like This items @skoruppa\r\n- added the percent value to the swipe up gesture bars @AdityasahuX07\r\n- feat(player): skip watched titles in movie recommendations @luqmanfadlli\r\n- fix(profile): let the insight collection grid fill the sheet @luqmanfadlli\r\n- fix(settings): show the tablet bars in the nav bar preview on iPad @luqmanfadlli\r\n- feat: add Simkl as third More Like This source @skoruppa\r\n- add per-screen toggles for custom poster URL overlay @skoruppa\r\n- fix(player): key player lifecycle by episode and source @tapframe",
@@ -44,21 +52,13 @@
           "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.26-beta/Nuvio-0.4.26-Enhanced.ipa",
           "size": 67100856,
           "minOSVersion": "16.1"
-        },
-        {
-          "version": "0.4.25",
-          "date": "2026-09-19T17:31:24Z",
-          "localizedDescription": "- fix(details): keep the hero blend layer below the content @luqmanfadlli\r\n- feat(player): show seek, volume, and brightness values in the new layout @luqmanfadlli\r\n- fix(home): prevent hero flash when cycling @tapframe\r\n- i18n(el): translate new 0.4.24 strings and refresh stale ones @nosvasedis\r\n- revert(ui): restore previous surface and chip styles @tapframe\r\n- test(simkl): expect the percentage an episode row really carries @Judzim\r\n- fix(simkl): stop inventing an episode position out of the show runtime @Judzim\r\n- fix(simkl): keep a pause the app just recorded over a fetch that lags @Judzim\r\n- fix(simkl): never push a whole-series mark to Simkl history @Judzim\r\n- fix(player): restore the PiP, quality chooser, and info button in the new layout @luqmanfadlli\r\n- fix(ui): fade the primary button's gradient when it is disabled @luqmanfadlli\r\n- fix(downloads): tint the open downloads folder icon @luqmanfadlli",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.25-beta/Nuvio-0.4.25-Enhanced.ipa",
-          "size": 66955980,
-          "minOSVersion": "16.1"
         }
       ],
-      "version": "0.5.2",
-      "versionDate": "2026-09-26T00:04:36Z",
-      "versionDescription": "- fix(catalog): handle Simkl source in More Like This \"View all\" @luqmanfadlli\r\n- fix(streams): use multiplatform synchronization @tapframe\r\n- fix(exo): update buffer defaults @tapframe\r\n- update engine libs @tapframe\r\n- fix(ios): hide home indicator during playback @tapframe\r\n- feat(profile): show Taste DNA genres as a donut chart @luqmanfadlli\r\n- feat(profile): derive Taste DNA genres from watched titles @luqmanfadlli\r\n- fix(profile): measure movie/series leaning by distinct titles @luqmanfadlli\r\n- feat(auth): enable password manager autofill for sign-in/sign-up @luqmanfadlli\r\n- fix(settings): set navigation bar style/position locally @luqmanfadlli\r\n- update latest Vietnamese strings @blueocean2308\r\n- Delay next-episode card until post-credits scene ends @skoruppa\r\n- scope library poster overlay to LIBRARY screen toggle and react to changes @skoruppa\r\n- Use dedicated ImageLoader for stream badges to prevent cache revalidation @skoruppa\r\n- feat(profile): rework the Profile Insight hero, watch time and taste @luqmanfadlli\r\n- feat(library): denser poster grid per device and orientation @luqmanfadlli\r\n- feat: add landscape banner to Simkl More Like This items @skoruppa\r\n- added the percent value to the swipe up gesture bars @AdityasahuX07\r\n- feat(player): skip watched titles in movie recommendations @luqmanfadlli\r\n- fix(profile): let the insight collection grid fill the sheet @luqmanfadlli\r\n- fix(settings): show the tablet bars in the nav bar preview on iPad @luqmanfadlli\r\n- feat: add Simkl as third More Like This source @skoruppa\r\n- add per-screen toggles for custom poster URL overlay @skoruppa\r\n- fix(player): key player lifecycle by episode and source @tapframe",
-      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.2-beta/Nuvio-0.5.2-Enhanced.ipa",
-      "size": 68152456,
+      "version": "0.5.3",
+      "versionDate": "2026-09-27T05:17:19Z",
+      "versionDescription": "- fix(ios): restore Now Playing controls by dropping mixWithOthers @luqmanfadlli\r\n- fix(home): use continue watching poster pattern @tapframe\r\n- fix(shuffle): open sheet at full height @tapframe\r\n- fix(details): move shuffle into actions menu @tapframe\r\n- feat(poster): support addon landscape posters @tapframe\r\n- feat(library): animate downloads icon during downloads @tapframe\r\n- feat(library): move downloads to library @tapframe\r\n- feat(ui): restyle dialogs @tapframe\r\n- feat(ui): restyle dropdown menus @tapframe\r\n- feat(ui): restyle bottom sheets @tapframe\r\n- fix(auth): use state-based text fields so autofill sees the username field @luqmanfadlli\r\n- fix(settings): keep Enhanced-only appearance settings device-local @luqmanfadlli\r\n- feat(streams): use shimmer for loading states @tapframe\r\n- feat(spinner): change indicator @tapframe\r\n- i18n(ur): add Urdu localization (#2067) @muzii9\r\n- feat(player): add episode shuffle @tapframe",
+      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.3-beta/Nuvio-0.5.3-Enhanced.ipa",
+      "size": 68569946,
       "iconURL": "https://bradleymk21.github.io/Nuvio-Enhanced/icon.png",
       "tintColor": "#6C5CE7"
     }
