@@ -14,6 +14,14 @@
       "category": "entertainment",
       "versions": [
         {
+          "version": "0.5.5",
+          "date": "2026-10-01T05:44:06Z",
+          "localizedDescription": "- feat(visualsubtitlesync) @chrisk325\r\n- feat(i18n): add Bengali (বাংলা) language support and UI localization @TanvirSdq\r\n- i18n(el): translate new strings and finish the Greek wording sweep @nosvasedis\r\n- Fix clearlogo + backdrop @skoruppa\r\n- fix(profile): make Profile Insight consistent across devices @luqmanfadlli\r\n- Fix hero alignment to follow HeroContentBlock alignment @ThEgIGN\r\n- feat(userratings): add shimmer animation to stars @chrisk325\r\n- feat(userratings): add animation to the bottomsheet @chrisk325\r\n- fix(player): show the swipe-to-seek preview in the new player layout @deejay189393\r\n- feat(settings): add Clear Metadata Cache to Advanced settings @luqmanfadlli\r\n- perf(profile,library): keep background metadata lookups within API limits @luqmanfadlli\r\n- feat(profile,library): add manual refresh and surface load failures @luqmanfadlli\r\n- fix(library): stop caching failed release lookups in the calendar @luqmanfadlli\r\n- fix(debrid): select requested episode files @tapframe\r\n- perf(profile): persist Profile Insight title facts across launches @luqmanfadlli\r\n- perf(profile): compute Profile Insight stats off the main thread @luqmanfadlli\r\n- i18n(vi): update latest Vietnamese strings (#2096) @blueocean2308\r\n- Translation improvements and adjustments for Slovak language (#2104) @mmsw91\r\n- fix(mdblist): show newest library additions first (#2103) @halibiram",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.5-beta/Nuvio-0.5.5-Enhanced.ipa",
+          "size": 69276861,
+          "minOSVersion": "16.1"
+        },
+        {
           "version": "0.5.4",
           "date": "2026-09-28T10:25:10Z",
           "localizedDescription": "- fix(player): ignore short clips for tracking @tapframe\r\n- fix(ios): update quickjs to 1.0.15 @tapframe\r\n- feat(ratings): star rating row under details actions, fit icon row, episode badge @luqmanfadlli\r\n- fix(player): reduce buffer durations @tapframe\r\n- fix(details): keep custom posters when returning to a title @tapframe\r\n- feat(ratings): in-app ratings synced with Trakt, Simkl and MDBList @luqmanfadlli\r\n- fix(library): move header actions onto the Saved/Cloud row @luqmanfadlli\r\n- fix(settings): use shared chip on detail page @tapframe\r\n- fix(details): replay watched series from first episode @tapframe\r\n- fix(player): resume restored player from current position @tapframe\r\n- fix(i18n): align episode labels and metadata with tv @tapframe\r\n- fix(streams): prevent rotation during binge group lookup @tapframe\r\n- fix(profiles): center pin dialog content @tapframe\r\n- Plugin timeout (#2091) @paregi12",
@@ -44,21 +52,13 @@
           "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.1-beta/Nuvio-0.5.1-Enhanced.ipa",
           "size": 68031189,
           "minOSVersion": "16.1"
-        },
-        {
-          "version": "0.5.0",
-          "date": "2026-09-22T10:50:53Z",
-          "localizedDescription": "- fix(ios): end the downloads Live Activity background task on the main actor @luqmanfadlli\r\n- feat(player): snooze the movie recommendation card for a minute on dismiss @luqmanfadlli\r\n- feat(player): suggest More Like This titles at the end of a movie @luqmanfadlli\r\n- fix(library): load and persist episode release schedule from app start @luqmanfadlli\r\n- feat(profile): iOS-style floating header on the Android Profile page @luqmanfadlli\r\n- feat(settings): collapse tracker cards by default @tapframe\r\n- fix(player): restore subtitles for each episode @tapframe\r\n- feat(profile): split finished titles into Watched, Completed and Episodes @luqmanfadlli\r\n- fix(profile): show next-7-day episodes under Profile Insight's Upcoming @luqmanfadlli\r\n- feat(profile): move edit/switch/save actions to circular header buttons @albertovinaroz\r\n- feat(settings): redesign the Profile page hero @albertovinaroz\r\n- fix(ios): align the morphed tab bar handoff with the native UITabBar @luqmanfadlli\r\n- feat(mdblist): use connected account for ratings with api key override @tapframe\r\n- fix(ios): run each plugin on its own large-stack thread to restore scraping speed @luqmanfadlli\r\n- Get rid of Tmbd Dates Enrichment @skoruppa\r\n- test(player): cover MX Player completion results without position @zuko726\r\n- fix(player): record position-less external results when the player reports completion @zuko726\r\n- fix(player): keep external player results that report completion without a position @zuko726\r\n- fix(tmdb): sort blank collection release dates last tapframe\r\n- fix(ios): use clean player framework archive tapframe\r\n- fix(player): preserve iOS audio during calls @tapframe\r\n- fix(poster): reload pattern on profile switch @tapframe\r\n- fix(poster): add missing iOS annotation import @tapframe\r\n- Custom poster URL pattern support @skoruppa",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.0-beta/Nuvio-0.5.0-Enhanced.ipa",
-          "size": 67967466,
-          "minOSVersion": "16.1"
         }
       ],
-      "version": "0.5.4",
-      "versionDate": "2026-09-28T10:25:10Z",
-      "versionDescription": "- fix(player): ignore short clips for tracking @tapframe\r\n- fix(ios): update quickjs to 1.0.15 @tapframe\r\n- feat(ratings): star rating row under details actions, fit icon row, episode badge @luqmanfadlli\r\n- fix(player): reduce buffer durations @tapframe\r\n- fix(details): keep custom posters when returning to a title @tapframe\r\n- feat(ratings): in-app ratings synced with Trakt, Simkl and MDBList @luqmanfadlli\r\n- fix(library): move header actions onto the Saved/Cloud row @luqmanfadlli\r\n- fix(settings): use shared chip on detail page @tapframe\r\n- fix(details): replay watched series from first episode @tapframe\r\n- fix(player): resume restored player from current position @tapframe\r\n- fix(i18n): align episode labels and metadata with tv @tapframe\r\n- fix(streams): prevent rotation during binge group lookup @tapframe\r\n- fix(profiles): center pin dialog content @tapframe\r\n- Plugin timeout (#2091) @paregi12",
-      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.4-beta/Nuvio-0.5.4-Enhanced.ipa",
-      "size": 68808545,
+      "version": "0.5.5",
+      "versionDate": "2026-10-01T05:44:06Z",
+      "versionDescription": "- feat(visualsubtitlesync) @chrisk325\r\n- feat(i18n): add Bengali (বাংলা) language support and UI localization @TanvirSdq\r\n- i18n(el): translate new strings and finish the Greek wording sweep @nosvasedis\r\n- Fix clearlogo + backdrop @skoruppa\r\n- fix(profile): make Profile Insight consistent across devices @luqmanfadlli\r\n- Fix hero alignment to follow HeroContentBlock alignment @ThEgIGN\r\n- feat(userratings): add shimmer animation to stars @chrisk325\r\n- feat(userratings): add animation to the bottomsheet @chrisk325\r\n- fix(player): show the swipe-to-seek preview in the new player layout @deejay189393\r\n- feat(settings): add Clear Metadata Cache to Advanced settings @luqmanfadlli\r\n- perf(profile,library): keep background metadata lookups within API limits @luqmanfadlli\r\n- feat(profile,library): add manual refresh and surface load failures @luqmanfadlli\r\n- fix(library): stop caching failed release lookups in the calendar @luqmanfadlli\r\n- fix(debrid): select requested episode files @tapframe\r\n- perf(profile): persist Profile Insight title facts across launches @luqmanfadlli\r\n- perf(profile): compute Profile Insight stats off the main thread @luqmanfadlli\r\n- i18n(vi): update latest Vietnamese strings (#2096) @blueocean2308\r\n- Translation improvements and adjustments for Slovak language (#2104) @mmsw91\r\n- fix(mdblist): show newest library additions first (#2103) @halibiram",
+      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.5-beta/Nuvio-0.5.5-Enhanced.ipa",
+      "size": 69276861,
       "iconURL": "https://bradleymk21.github.io/Nuvio-Enhanced/icon.png",
       "tintColor": "#6C5CE7"
     }
