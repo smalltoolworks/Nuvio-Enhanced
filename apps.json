@@ -14,6 +14,14 @@
       "category": "entertainment",
       "versions": [
         {
+          "version": "0.5.7",
+          "date": "2026-10-07T02:08:39Z",
+          "localizedDescription": "- fix(buffer): make the java heap large @chrisk325\r\n- feat(player): make the movie recommendation card less intrusive @luqmanfadlli\r\n- feat(player): show buffered range on the seek bar @luqmanfadlli\r\n- fix(whats-new): show all releases on platforms without update channels @luqmanfadlli \r\n- feat: add in-app What's New release history @jeff25steve\r\n- fix(p2p): correct torrent cache path and usage @tapframe\r\n- fix player crash with exo native memory @chrisk325\r\n- feat(details): add letterbox zoom to hero trailer @tapframe\r\n- feat(mdblist): choose which lists appear in the library (#2171) @kernexshadow\r\n- fix(player): follow system brightness when touch gestures are off @tapframe\r\n- feat(player): feat custom buffer and exo native engine @chrisk325\r\n- feat(streams): match tv refresh spin in streams and player panels @tapframe\r\n- feat(player): add switch player and stream info actions @tapframe\r\n- feat(streams): spin refresh button until addons finish loading @tapframe\r\n- fix custom poster pattern URL validation and decoding (#2153) @skoruppa\r\n- feat(details): rework tablet hero actions layout @luqmanfadlli",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.7-beta/Nuvio-0.5.7-Enhanced.ipa",
+          "size": 69669767,
+          "minOSVersion": "16.1"
+        },
+        {
           "version": "0.5.6",
           "date": "2026-10-03T01:17:07Z",
           "localizedDescription": "- fix(settings): restore missing isIos import in AppearanceSettingsPage @luqmanfadlli \r\n- feat(details): use desktop hero layout on tablets @tapframe\r\n- feat(settings): show restart prompt when layout direction changes @tapframe\r\n- fix(ios): declare supported localizations @tapframe\r\n- fix(player): auto-play next episode on end after dismissing prompt @tapframe\r\n- i18n(vi): update latest Vietnamese strings (#2146) @blueocean2308\r\n- Preload next episode sources (#2140) @skoruppa\r\n- Fix mising poster fallback in Catalog Screen (#2139) @skoruppa\r\n- fix(player): backport automatic skip notifications from Desktop (#2137) @Laskco\r\n- fix(player): make Android volume boost audible on Dolby audio @luqmanfadlli",
@@ -44,21 +52,13 @@
           "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.3-beta/Nuvio-0.5.3-Enhanced.ipa",
           "size": 68569946,
           "minOSVersion": "16.1"
-        },
-        {
-          "version": "0.5.2",
-          "date": "2026-09-26T00:04:36Z",
-          "localizedDescription": "- fix(catalog): handle Simkl source in More Like This \"View all\" @luqmanfadlli\r\n- fix(streams): use multiplatform synchronization @tapframe\r\n- fix(exo): update buffer defaults @tapframe\r\n- update engine libs @tapframe\r\n- fix(ios): hide home indicator during playback @tapframe\r\n- feat(profile): show Taste DNA genres as a donut chart @luqmanfadlli\r\n- feat(profile): derive Taste DNA genres from watched titles @luqmanfadlli\r\n- fix(profile): measure movie/series leaning by distinct titles @luqmanfadlli\r\n- feat(auth): enable password manager autofill for sign-in/sign-up @luqmanfadlli\r\n- fix(settings): set navigation bar style/position locally @luqmanfadlli\r\n- update latest Vietnamese strings @blueocean2308\r\n- Delay next-episode card until post-credits scene ends @skoruppa\r\n- scope library poster overlay to LIBRARY screen toggle and react to changes @skoruppa\r\n- Use dedicated ImageLoader for stream badges to prevent cache revalidation @skoruppa\r\n- feat(profile): rework the Profile Insight hero, watch time and taste @luqmanfadlli\r\n- feat(library): denser poster grid per device and orientation @luqmanfadlli\r\n- feat: add landscape banner to Simkl More Like This items @skoruppa\r\n- added the percent value to the swipe up gesture bars @AdityasahuX07\r\n- feat(player): skip watched titles in movie recommendations @luqmanfadlli\r\n- fix(profile): let the insight collection grid fill the sheet @luqmanfadlli\r\n- fix(settings): show the tablet bars in the nav bar preview on iPad @luqmanfadlli\r\n- feat: add Simkl as third More Like This source @skoruppa\r\n- add per-screen toggles for custom poster URL overlay @skoruppa\r\n- fix(player): key player lifecycle by episode and source @tapframe",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.2-beta/Nuvio-0.5.2-Enhanced.ipa",
-          "size": 68152456,
-          "minOSVersion": "16.1"
         }
       ],
-      "version": "0.5.6",
-      "versionDate": "2026-10-03T01:17:07Z",
-      "versionDescription": "- fix(settings): restore missing isIos import in AppearanceSettingsPage @luqmanfadlli \r\n- feat(details): use desktop hero layout on tablets @tapframe\r\n- feat(settings): show restart prompt when layout direction changes @tapframe\r\n- fix(ios): declare supported localizations @tapframe\r\n- fix(player): auto-play next episode on end after dismissing prompt @tapframe\r\n- i18n(vi): update latest Vietnamese strings (#2146) @blueocean2308\r\n- Preload next episode sources (#2140) @skoruppa\r\n- Fix mising poster fallback in Catalog Screen (#2139) @skoruppa\r\n- fix(player): backport automatic skip notifications from Desktop (#2137) @Laskco\r\n- fix(player): make Android volume boost audible on Dolby audio @luqmanfadlli",
-      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.6-beta/Nuvio-0.5.6-Enhanced.ipa",
-      "size": 69320719,
+      "version": "0.5.7",
+      "versionDate": "2026-10-07T02:08:39Z",
+      "versionDescription": "- fix(buffer): make the java heap large @chrisk325\r\n- feat(player): make the movie recommendation card less intrusive @luqmanfadlli\r\n- feat(player): show buffered range on the seek bar @luqmanfadlli\r\n- fix(whats-new): show all releases on platforms without update channels @luqmanfadlli \r\n- feat: add in-app What's New release history @jeff25steve\r\n- fix(p2p): correct torrent cache path and usage @tapframe\r\n- fix player crash with exo native memory @chrisk325\r\n- feat(details): add letterbox zoom to hero trailer @tapframe\r\n- feat(mdblist): choose which lists appear in the library (#2171) @kernexshadow\r\n- fix(player): follow system brightness when touch gestures are off @tapframe\r\n- feat(player): feat custom buffer and exo native engine @chrisk325\r\n- feat(streams): match tv refresh spin in streams and player panels @tapframe\r\n- feat(player): add switch player and stream info actions @tapframe\r\n- feat(streams): spin refresh button until addons finish loading @tapframe\r\n- fix custom poster pattern URL validation and decoding (#2153) @skoruppa\r\n- feat(details): rework tablet hero actions layout @luqmanfadlli",
+      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.7-beta/Nuvio-0.5.7-Enhanced.ipa",
+      "size": 69669767,
       "iconURL": "https://bradleymk21.github.io/Nuvio-Enhanced/icon.png",
       "tintColor": "#6C5CE7"
     }
