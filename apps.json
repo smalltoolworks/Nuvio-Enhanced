@@ -14,6 +14,14 @@
       "category": "entertainment",
       "versions": [
         {
+          "version": "0.5.8",
+          "date": "2026-10-09T02:00:51Z",
+          "localizedDescription": "- fix(player): hide upstream's Stream Info action in the new layout @luqmanfadlli \r\n- fix(player): keep controls visible while a finger rests on the seek bar @luqmanfadlli\r\n- fix(omdb): only call OMDb for episode ratings on the details page @luqmanfadlli\r\n- feat(player): pick playback speed instead of cycling @luqmanfadlli\r\n- fix(player): release the seek-preview connection when a scrub ends @luqmanfadlli\r\n- feat(player): read chapters from mpv on iOS and Android libmpv @luqmanfadlli\r\n- fix(player): restore engine switching and media info on Android @luqmanfadlli\r\n- fix(player): grab seek-bar thumbnails from extension-less HLS streams @luqmanfadlli\r\n- fix(player): send stream headers when grabbing seek-bar thumbnails @luqmanfadlli\r\n- feat(player): 23 commits to add chapter segments if the source has it @chrisk325\r\n- fix(plugins,addons): guard activeRefreshJobs against concurrent modification @luqmanfadlli\r\n- feat(player): show thumbnail previews while dragging the seek bar @luqmanfadlli\r\n- i18n: Add Croatian (hr) translation (#2169) @Anarchydr\r\n- feat(mdblist): sort library lists by release date (#2196) @kernexshadow\r\n- Reset next episode preload flag on episode transition (#2193) @skoruppa\r\n- fix(UI): fix hero content shifting on horizontal and tablet layouts (#2190) @ThEgIGN\r\n- feat(servers): add experimental Jellyfin and Emby support (#2081) @tapframe\r\n- fix(streams): play streams that only have a ytId (#2115) @deejay189393",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.8-beta/Nuvio-0.5.8-Enhanced.ipa",
+          "size": 70482935,
+          "minOSVersion": "16.1"
+        },
+        {
           "version": "0.5.7",
           "date": "2026-10-07T02:08:39Z",
           "localizedDescription": "- fix(buffer): make the java heap large @chrisk325\r\n- feat(player): make the movie recommendation card less intrusive @luqmanfadlli\r\n- feat(player): show buffered range on the seek bar @luqmanfadlli\r\n- fix(whats-new): show all releases on platforms without update channels @luqmanfadlli \r\n- feat: add in-app What's New release history @jeff25steve\r\n- fix(p2p): correct torrent cache path and usage @tapframe\r\n- fix player crash with exo native memory @chrisk325\r\n- feat(details): add letterbox zoom to hero trailer @tapframe\r\n- feat(mdblist): choose which lists appear in the library (#2171) @kernexshadow\r\n- fix(player): follow system brightness when touch gestures are off @tapframe\r\n- feat(player): feat custom buffer and exo native engine @chrisk325\r\n- feat(streams): match tv refresh spin in streams and player panels @tapframe\r\n- feat(player): add switch player and stream info actions @tapframe\r\n- feat(streams): spin refresh button until addons finish loading @tapframe\r\n- fix custom poster pattern URL validation and decoding (#2153) @skoruppa\r\n- feat(details): rework tablet hero actions layout @luqmanfadlli",
@@ -44,21 +52,13 @@
           "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.4-beta/Nuvio-0.5.4-Enhanced.ipa",
           "size": 68808545,
           "minOSVersion": "16.1"
-        },
-        {
-          "version": "0.5.3",
-          "date": "2026-09-27T05:17:19Z",
-          "localizedDescription": "- fix(ios): restore Now Playing controls by dropping mixWithOthers @luqmanfadlli\r\n- fix(home): use continue watching poster pattern @tapframe\r\n- fix(shuffle): open sheet at full height @tapframe\r\n- fix(details): move shuffle into actions menu @tapframe\r\n- feat(poster): support addon landscape posters @tapframe\r\n- feat(library): animate downloads icon during downloads @tapframe\r\n- feat(library): move downloads to library @tapframe\r\n- feat(ui): restyle dialogs @tapframe\r\n- feat(ui): restyle dropdown menus @tapframe\r\n- feat(ui): restyle bottom sheets @tapframe\r\n- fix(auth): use state-based text fields so autofill sees the username field @luqmanfadlli\r\n- fix(settings): keep Enhanced-only appearance settings device-local @luqmanfadlli\r\n- feat(streams): use shimmer for loading states @tapframe\r\n- feat(spinner): change indicator @tapframe\r\n- i18n(ur): add Urdu localization (#2067) @muzii9\r\n- feat(player): add episode shuffle @tapframe",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.3-beta/Nuvio-0.5.3-Enhanced.ipa",
-          "size": 68569946,
-          "minOSVersion": "16.1"
         }
       ],
-      "version": "0.5.7",
-      "versionDate": "2026-10-07T02:08:39Z",
-      "versionDescription": "- fix(buffer): make the java heap large @chrisk325\r\n- feat(player): make the movie recommendation card less intrusive @luqmanfadlli\r\n- feat(player): show buffered range on the seek bar @luqmanfadlli\r\n- fix(whats-new): show all releases on platforms without update channels @luqmanfadlli \r\n- feat: add in-app What's New release history @jeff25steve\r\n- fix(p2p): correct torrent cache path and usage @tapframe\r\n- fix player crash with exo native memory @chrisk325\r\n- feat(details): add letterbox zoom to hero trailer @tapframe\r\n- feat(mdblist): choose which lists appear in the library (#2171) @kernexshadow\r\n- fix(player): follow system brightness when touch gestures are off @tapframe\r\n- feat(player): feat custom buffer and exo native engine @chrisk325\r\n- feat(streams): match tv refresh spin in streams and player panels @tapframe\r\n- feat(player): add switch player and stream info actions @tapframe\r\n- feat(streams): spin refresh button until addons finish loading @tapframe\r\n- fix custom poster pattern URL validation and decoding (#2153) @skoruppa\r\n- feat(details): rework tablet hero actions layout @luqmanfadlli",
-      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.7-beta/Nuvio-0.5.7-Enhanced.ipa",
-      "size": 69669767,
+      "version": "0.5.8",
+      "versionDate": "2026-10-09T02:00:51Z",
+      "versionDescription": "- fix(player): hide upstream's Stream Info action in the new layout @luqmanfadlli \r\n- fix(player): keep controls visible while a finger rests on the seek bar @luqmanfadlli\r\n- fix(omdb): only call OMDb for episode ratings on the details page @luqmanfadlli\r\n- feat(player): pick playback speed instead of cycling @luqmanfadlli\r\n- fix(player): release the seek-preview connection when a scrub ends @luqmanfadlli\r\n- feat(player): read chapters from mpv on iOS and Android libmpv @luqmanfadlli\r\n- fix(player): restore engine switching and media info on Android @luqmanfadlli\r\n- fix(player): grab seek-bar thumbnails from extension-less HLS streams @luqmanfadlli\r\n- fix(player): send stream headers when grabbing seek-bar thumbnails @luqmanfadlli\r\n- feat(player): 23 commits to add chapter segments if the source has it @chrisk325\r\n- fix(plugins,addons): guard activeRefreshJobs against concurrent modification @luqmanfadlli\r\n- feat(player): show thumbnail previews while dragging the seek bar @luqmanfadlli\r\n- i18n: Add Croatian (hr) translation (#2169) @Anarchydr\r\n- feat(mdblist): sort library lists by release date (#2196) @kernexshadow\r\n- Reset next episode preload flag on episode transition (#2193) @skoruppa\r\n- fix(UI): fix hero content shifting on horizontal and tablet layouts (#2190) @ThEgIGN\r\n- feat(servers): add experimental Jellyfin and Emby support (#2081) @tapframe\r\n- fix(streams): play streams that only have a ytId (#2115) @deejay189393",
+      "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.8-beta/Nuvio-0.5.8-Enhanced.ipa",
+      "size": 70482935,
       "iconURL": "https://bradleymk21.github.io/Nuvio-Enhanced/icon.png",
       "tintColor": "#6C5CE7"
     }
